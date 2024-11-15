@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [v0.13.0](https://github.com/shaarli/Shaarli/releases/tag/v0.12.3) - 2023-11-22
+## [v0.13.0](https://github.com/shaarli/Shaarli/releases/tag/v0.13.0) - 2023-11-22
 
 > Major changes:
 >  - Security: Fix XSS vulnerability in tag search
