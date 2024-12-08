@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ------------------------
 
-## [v0.14.0](https://github.com/shaarli/Shaarli/releases/tag/v0.14.0) - UNRELEASED
+## [v0.14.0](https://github.com/shaarli/Shaarli/releases/tag/v0.14.0) - 2024-12-08
 
 ### Added
 
