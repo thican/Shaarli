@@ -14,9 +14,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 * doc: add shaarli-offen plugin to Community & related software by @waschinski in https://github.com/shaarli/Shaarli/pull/2064
 * doc: add Shaanti browser extension to Community & related software by @7Ds7 in https://github.com/shaarli/Shaarli/pull/2078
 * doc: add image-upload plugin to Community & related software by @bttrx in https://github.com/shaarli/Shaarli/pull/2097
-* doc: add shaarli2bluesky plugin to Community & related software by @bttrx in https://github.com/shaarli/Shaarli/pull/2097
+* doc: add shaarli2bluesky plugin to Community & related software by @kalvn in https://github.com/shaarli/Shaarli/pull/2111
 * doc: server configuration: allow accessing and caching SVG assets by @nodiscc in https://github.com/shaarli/Shaarli/pull/2074
-* doc: usage: document "Sticky" mode by @kalvn in https://github.com/shaarli/Shaarli/pull/2111
+* doc: usage: document "Sticky" mode by @nodiscc in https://github.com/shaarli/Shaarli/pull/2055
 * doc: troubleshooting: add solution for `Allowed memory size of xxx bytes exhausted` by @nodiscc in https://github.com/shaarli/Shaarli/pull/2083
 * doc: usage: add opensearch/browser search engine integration instructions by @nodiscc in https://github.com/shaarli/Shaarli/pull/2096
 * doc: troubleshooting: list more cases in which title retrieval fails by @nodiscc in https://github.com/shaarli/Shaarli/pull/2060
