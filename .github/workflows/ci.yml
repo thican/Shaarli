@@ -24,6 +24,9 @@ jobs:
           extensions: gd, xml, curl, mbstring, intl, gettext, ldap
           tools: composer:v2
 
+      - name: Allow APT Release label changes # workaround for https://github.com/oerdnj/deb.sury.org/issues/2295
+        run: echo 'Acquire::AllowReleaseInfoChange::Label "true";' | sudo tee /etc/apt/apt.conf.d/label_change
+
       - name: Check PHP version
         run: php -v
 
