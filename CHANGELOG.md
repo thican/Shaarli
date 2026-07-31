@@ -18,6 +18,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 * doc: fix CONTRIBUTING.md procedures and links
 
+### Security
+
+- prevent path disclosure via array injection in search parameters ([GHSA-v88g-xgpq-qx3w](https://github.com/shaarli/Shaarli/security/advisories/GHSA-v88g-xgpq-qx3w))
+
 
 **Full Changelog**: https://github.com/shaarli/Shaarli/compare/v0.16.5...v0.17.0
 
