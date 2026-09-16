@@ -18,9 +18,10 @@ Check the [milestones](https://github.com/shaarli/Shaarli/milestones) to see wha
  
 ### Documentation
 
-The [official documentation](http://shaarli.readthedocs.io/en/rtfd/) is generated from [Markdown](https://daringfireball.net/projects/markdown/syntax) documents in the `doc/md/` directory. HTML documentation is generated using [Mkdocs](http://www.mkdocs.org/). [Read the Docs](https://readthedocs.org/) provides hosting for the online documentation. 
+The [official documentation](http://shaarli.readthedocs.io/en/rtfd/) is generated from [Markdown](https://daringfireball.net/projects/markdown/syntax)
 
-To edit the documentation, please edit the appropriate `doc/md/*.md` files (and optionally `make htmlpages` to preview changes to HTML files). Then submit your changes as a Pull Request. Have a look at the MkDocs documentation and configuration file `mkdocs.yml` if you need to add/remove/rename/reorder pages.
+See [Development/Documentation](https://shaarli.readthedocs.io/en/master/dev/Development.html#documentation).
+
 
 ### Translations
 Shaarli supports [gettext](https://www.gnu.org/software/gettext/) translations. See the [translation documentation](doc/md/dev/Development.md#translations) for details on how to contribute.
@@ -56,7 +57,7 @@ Please report any problem you might find.
  * starting from branch ` master`, switch to a new branch (eg. `git checkout -b my-awesome-feature`)
  * edit the required files (from the Github web interface or your text editor)
  * add and commit your changes with a meaningful commit message (eg `Cool new feature, fixes issue #1001`)
- * run unit tests against your patched version, see [Running unit tests](https://shaarli.readthedocs.io/en/master/Unit-tests/#run-unit-tests)
+ * run unit tests against your patched version, see [Unit tests](https://shaarli.readthedocs.io/en/master/dev/Development.html#unit-tests)
  * Open your fork in the Github web interface and click the "Compare and Pull Request" button, enter required info and submit your Pull Request.
 
 All changes you will do on the `my-awesome-feature`  in the future will be added to your Pull Request. Don't work directly on the master branch, don't do unrelated work on your  `my-awesome-feature` branch.
