@@ -330,6 +330,25 @@ docker rm shaarli-test
 docker volume rm shaarli-data
 ```
 
+### Updating frontend dependencies
+
+If vulnerabilities are reported against frontend dependencies, the following check will fail:
+```
+$ make test_trivy_repo
+```
+
+Update npm dependencies:
+
+```bash
+$ cd /path/to/shaarli
+$ yarn install
+# verify the lockfile is stable (no modifications on a second run):
+$ yarn install
+```
+
+Yarn will resolve to the latest versions satisfying the semver ranges in `package.json`. If a dependency's constraint is too restrictive, update the constraint in `package.json` first, and run `yarn install`.
+
+
 ## GnuPG Signature
 
 [Gnu Privacy Guard](https://gnupg.org/) (GnuPG) is an Open Source implementation of the [Pretty Good Privacy](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP) (OpenPGP) specification. Its main purposes are digital authentication, signature and encryption. It is often used by the [FLOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) community to verify:
