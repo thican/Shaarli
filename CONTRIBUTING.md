@@ -23,7 +23,9 @@ The [official documentation](http://shaarli.readthedocs.io/en/rtfd/) is generate
 To edit the documentation, please edit the appropriate `doc/md/*.md` files (and optionally `make htmlpages` to preview changes to HTML files). Then submit your changes as a Pull Request. Have a look at the MkDocs documentation and configuration file `mkdocs.yml` if you need to add/remove/rename/reorder pages.
 
 ### Translations
-Currently Shaarli has no translation/internationalization/localization system available and is single-language. You can help by proposing an i18n system (issue https://github.com/shaarli/Shaarli/issues/121)
+Shaarli supports [gettext](https://www.gnu.org/software/gettext/) translations. See the [translation documentation](doc/md/dev/Development.md#translations) for details on how to contribute.
+
+Note that only the `default` theme supports translations.
 
 ### Beta testing
 You can help testing Shaarli releases by immediately upgrading your installation after a [new version has been releases](https://github.com/shaarli/Shaarli/releases).

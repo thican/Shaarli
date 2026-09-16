@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 * build(deps): update vulnerable npm dependencies
 * doc: add section on updating frontend dependencies
 
+### Fixed
+
+* doc: fix CONTRIBUTING.md translations section
+
 **Full Changelog**: https://github.com/shaarli/Shaarli/compare/v0.16.5...v0.17.0
 
 ------------------------
