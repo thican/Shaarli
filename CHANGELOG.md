@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 
 * docker: update base alpine image to v3.24.1
+* build(deps): update vulnerable npm dependencies
 
 **Full Changelog**: https://github.com/shaarli/Shaarli/compare/v0.16.5...v0.17.0
 
