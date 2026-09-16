@@ -155,7 +155,12 @@ See [`.github/workflows/`](https://github.com/shaarli/Shaarli/tree/master/.githu
 
 ## Documentation
 
-[Sphinx](https://www.sphinx-doc.org/en/master/) is used to convert markdown documentation to HTML pages. The [public documentation](https://shaarli.readthedocs.io/en/master/) website is rendered and hosted by [readthedocs.org](https://readthedocs.org/). A copy of the documentation is also included in prebuilt [release archives](https://github.com/shaarli/Shaarli/releases) (`doc/html/` path in your Shaarli installation). To generate the HTML documentation locally, run `make htmldoc`.
+* [Sphinx](https://www.sphinx-doc.org/en/master/) is used to convert markdown documentation in `doc/md/` to HTML pages.
+* The [public documentation](https://shaarli.readthedocs.io/en/master/) website is rendered and hosted by [readthedocs.org](https://readthedocs.org/).
+* A copy of the documentation is also included in prebuilt [release archives](https://github.com/shaarli/Shaarli/releases) (`doc/html/` path in your Shaarli installation).
+* To edit the documentation, please edit the appropriate `doc/md/*.md` files
+* To generate the HTML documentation locally, run `make htmldoc`.
+* Submit your changes as a Pull Request
 
 
 ## Static analysis
