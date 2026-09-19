@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 * tools: close Gitter instant messaging channel
 
+### Changed
+
+* update development/release documentation
+
 **Full Changelog**: https://github.com/shaarli/Shaarli/compare/v0.16.6...v0.17.0
 
 ------------------------
